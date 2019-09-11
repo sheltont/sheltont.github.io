@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "我在github上的第一条博客"
+date:   2019-09-11 10:26:25 +0800
+categories: jekyll update
+---
+陆陆续续写得，放在公司网站上的博客，全都不见了。虽然断断续续地写，也是一片心血！ 关于编程语言理解的，关于Lua FFI如何用于与遗留代码的集成，关于能源工控厂商和协议的，关于产品所用OpenResty的一些心得，等等，虽说不是高度，篇篇都是原创，一个字一个字敲进去。
+
+所以，还是换一个阵地，在github上留些痕迹。代码估计贡献不了太多了，留些工作过程中的一些心得，自己看，自己乐吧。
+
+{% highlight erlang %}
+
+-module(hello).
+-export([hello_world/0]).
+
+hello_world() -> io:fwrite("hello, world\n").
+
+{% endhighlight %}
+
+{% highlight rust %}
+
+fn main() {
+    println!("Hello World!");
+}
+
+{% endhighlight %}
+
+第一条blog，结束！
