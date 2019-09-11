@@ -22,7 +22,7 @@ title: Shelton's Blog
 email: shelton.ms@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   记录工作中的点点滴滴，找一个不会被删的树洞
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sheltont.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shelton_tang
 github_username:  sheltont
